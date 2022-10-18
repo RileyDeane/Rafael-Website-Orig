@@ -1,3 +1,14 @@
-.aboutme {
+div.home {
     text-align: center;
+
+}
+div.about-me {
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+div.album-cover {
+    position: relative;
+    right: auto;
 }
