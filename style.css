@@ -1,4 +1,4 @@
-div.home {
+.header {
     text-align: center;
 
 }
@@ -11,4 +11,9 @@ div.about-me {
 div.album-cover {
     position: relative;
     right: auto;
+}
+.profile-picture {
+    border-radius: 50%;
+    border: 3px solid;
+    width: 10%
 }
