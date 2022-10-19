@@ -1,7 +1,12 @@
 div.web-head {
     text-align: left;
-    background-color: black;
+    background-color: #141214;
     color: lightgray;
+    height: 100px;
+}
+.head-name {
+    font-size: 60px;
+    padding: 15px;
 }
 .header {
     text-align: center;
@@ -23,8 +28,52 @@ div.album-cover {
 }
 .button-one {
     position: absolute;
+    right: 320px;
+    top: 30px;
+    height: 20px;
+    width: 40px;
+}
+.button-two {
+    position: absolute;
+    right: 260px;
+    top: 30px;
+    height: 20px;
+    width: 40px;
+    background-color: lightgray;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button-three {
+    position: absolute;
     right: 200px;
     top: 30px;
     height: 20px;
     width: 40px;
+}
+
+/* Music.html styling */
+.music {
+    text-align: center;
+   
+}
+.albums {
+    text-align: center;
+}
+.album-art {
+    animation: fadeIn 3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% {opacity: 1;}
 }
