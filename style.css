@@ -33,7 +33,7 @@ div.album-cover {
 .button-one {
     position: absolute;
     right: 350px;
-    top: 55px;
+    top: 60px;
     background-color: darkgray;
     border: none;
     color: white;
@@ -53,7 +53,7 @@ div.album-cover {
 .button-two {
     position: absolute;
     right: 225px;
-    top: 55px;
+    top: 60px;
     background-color: darkgray;
     border: none;
     color: white;
@@ -73,7 +73,7 @@ div.album-cover {
 .button-three {
     position: absolute;
     right: 100px;
-    top: 55px;
+    top: 60px;
     background-color: darkgray;
     border: none;
     color: white;
