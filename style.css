@@ -17,7 +17,7 @@ div.web-head {
 }
 div.about-me {
     margin: auto;
-    width: 300px;
+    width: 400px;
     height: 100px;
     text-align: center;
 }
@@ -110,4 +110,16 @@ div.album-cover {
 
 .services {
     width: 5%;
+    bottom: 0%;
+}
+
+/* Footer */
+.contact-me {
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+#text {
+    width: 175px;
+    height: 50px;
 }
