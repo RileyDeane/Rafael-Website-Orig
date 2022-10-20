@@ -3,6 +3,7 @@ div.web-head {
     background-color: #141214;
     color: lightgray;
     height: 100px;
+    padding: 20px;
 }
 .head-name {
     font-size: 60px;
@@ -28,7 +29,8 @@ div.album-cover {
 .profile-picture {
     border-radius: 50%;
     border: 3px solid;
-    width: 20%
+    width: 20%;
+    margin: 15px;
 }
 .button-one {
     position: absolute;
@@ -110,16 +112,33 @@ div.album-cover {
 
 .services {
     width: 5%;
-    bottom: 0%;
+    bottom: 0px;
 }
 
 /* Footer */
 .contact-me {
     text-align: center;
     position: relative;
-    padding: 20px;
+    margin: 20px;
 }
 #text {
     width: 175px;
     height: 50px;
 }
+#submit {
+    position: absolute;
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: -40px;
+}
+#submit:hover {opacity: 1;}
