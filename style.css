@@ -18,7 +18,7 @@ div.web-head {
 }
 div.about-me {
     margin: auto;
-    width: 400px;
+    width: 650px;
     height: 100px;
     text-align: center;
 }
@@ -119,11 +119,22 @@ div.album-cover {
 .contact-me {
     text-align: center;
     position: relative;
-    margin: 20px;
+    padding-top: 10%;
+    margin: auto;
+}
+#email {
+    position: relative;
+    width: 200px;
+    height: auto;
+    background-color: darkgray;
+
 }
 #text {
-    width: 175px;
-    height: 50px;
+    position: relative;
+    width: 50%;
+    height: 100px;
+    background-color: darkgray;
+
 }
 #submit {
     position: absolute;
